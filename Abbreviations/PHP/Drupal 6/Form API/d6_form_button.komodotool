@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "d6_form_submit", 
+  "name": "d6_form_button", 
   "value": [
     "<%", 
     "function arrayKeys(input) {", 
@@ -49,7 +49,7 @@
     "%>", 
     "", 
     "$form<% if (fieldsets.length) { %>['<%= fieldsets %>']<% } %>['<%= field %>'] = array(", 
-    "\t'#type' => 'submit',", 
+    "\t'#type' => 'button',", 
     "<% for (var i=0; i < attrSelect.length; i++) { %>", 
     "<% var value = attributes[attrSelect[i]]; %>", 
     "  '<%= attrSelect[i] %>' => <%= value.replace('%tabstop', '%tabstop'+ i) %>,", 
@@ -58,8 +58,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "true"
 }

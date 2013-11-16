@@ -1,0 +1,28 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_form_value", 
+  "value": [
+    "<%", 
+    "var fieldset = ko.dialogs.prompt('Enter the fieldset name. Separate multiple fieldsets with a pipe \"|\". Leave empty if this field is not part of a fieldset.', 'Fieldset', '');", 
+    "", 
+    "if (fieldset.length) {", 
+    "\tvar fieldsets = fieldset.split('|').join(\"']['\");", 
+    "}", 
+    "", 
+    "var field = ko.dialogs.prompt('Enter the field name.', 'Field', '');", 
+    "", 
+    "var value = ko.dialogs.prompt('Enter the value.', 'Value', '');", 
+    "%>", 
+    "", 
+    "$form<% if (fieldsets.length) { %>['<%= fieldsets %>']<% } %>['<%= field %>'] = array(", 
+    "\t'#type' => 'value',", 
+    "  '#value' => <%= value %>,", 
+    ");!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}
