@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_action_info", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_action_info().", 
+    " * Declare information about one or more Drupal actions.", 
+    " */", 
+    "function [[%b]]_action_info() {", 
+    "\treturn array(", 
+    "\t\t'[[%b]]_[[%tabstop1]]' => array(", 
+    "\t\t\t'description' => t(''),", 
+    "\t\t\t'type' => '',", 
+    "\t\t\t'configurable' => ,", 
+    "\t\t\t'hooks' => array(", 
+    "\t\t\t\t'' => array(),", 
+    "\t\t\t)", 
+    "\t\t)", 
+    "\t);", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

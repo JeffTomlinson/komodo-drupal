@@ -1,0 +1,28 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_help", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_help().", 
+    " *", 
+    " * @param $$path A Drupal menu router path the help is being requested.", 
+    " * @param $$arg An array that corresponds to the return of the arg() function.", 
+    " * @return A localized string containing the help text.", 
+    " * Provide online user help.", 
+    " */", 
+    "function [[%b]]_help($path, $arg) {", 
+    "\t$output = '';", 
+    "\tswitch ($path) {", 
+    "\t\tcase "admin/help#[[%b]]":", 
+    "\t\t\t$output = '';", 
+    "\t\t\tbreak;", 
+    "\t}", 
+    "\treturn $output;", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

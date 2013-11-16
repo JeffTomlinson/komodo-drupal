@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_view", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_view().", 
+    " *", 
+    " * @param $$node The node to be displayed.", 
+    " * @param $$teaser Whether we are to generate a "teaser" or summary of the node, rather than display the whole thing.", 
+    " * @param $$page Whether the node is being displayed as a standalone page.", 
+    " * Display a node.", 
+    " */", 
+    "function [[%b]]_view($node, $teaser = FALSE, $page = FALSE) {", 
+    "\t[[%tabstop1]]", 
+    "\treturn $node;", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

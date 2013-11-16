@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_field_storage_create_field", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_storage_create_field().", 
+    " * Act on creation of a new field.", 
+    " */", 
+    "function [[%b]]_field_storage_create_field($field) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

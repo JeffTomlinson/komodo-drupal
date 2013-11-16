@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_update_projects_alter", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_update_projects_alter().", 
+    " *", 
+    " * @param $$projects Reference to an array of the projects installed on the system.", 
+    " * Alter the list of projects before fetching data and comparing versions.", 
+    " */", 
+    "function [[%b]]_update_projects_alter(&$projects) {", 
+    "\t$projects['[[%tabstop1:item]]'];", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

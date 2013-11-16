@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_db_rewrite_sql", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_db_rewrite_sql().", 
+    " * Rewrite database queries, usually for access control.", 
+    " */", 
+    "function [[%b]]_db_rewrite_sql($query, $primary_table, $primary_field, $args) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

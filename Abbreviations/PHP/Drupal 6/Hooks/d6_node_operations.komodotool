@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_node_operations", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_node_operations().", 
+    " * Add mass node operations.", 
+    " */", 
+    "function [[%b]]_node_operations() {", 
+    "\t$operations = array(", 
+    "\t\t'[[%tabstop1:item]]' => array(", 
+    "\t\t\t'label' => t(''),", 
+    "\t\t\t'callback' => ''", 
+    "\t\t)", 
+    "\t);", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

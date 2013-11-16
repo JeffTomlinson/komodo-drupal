@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_schema_serial", 
+  "value": [
+    "'[[%ask1:Field Name]]' => array(", 
+    "\t'type' => 'serial',", 
+    "\t'description' => '[[%ask2:Description]]',", 
+    "\t'unsigned' => [[%ask3:Unsigned:TRUE]],", 
+    "\t'not null' => [[%ask4:Not NULL:TRUE]],", 
+    "  'size' => '[[%ask5:size:big]]',", 
+    "),[[%tabstop1]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/cut.png"
+}

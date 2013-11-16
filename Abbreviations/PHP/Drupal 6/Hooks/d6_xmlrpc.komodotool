@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_xmlrpc", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_xmlrpc().", 
+    " * Register XML-RPC callbacks.", 
+    " */", 
+    "function [[%b]]_xmlrpc() {", 
+    "\treturn array(", 
+    "\t\t[[%tabstop1]]", 
+    "\t);", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

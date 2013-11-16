@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_schema_varchar", 
+  "value": [
+    "'[[%ask1:Field Name]]' => array(", 
+    "\t'type' => 'varchar',", 
+    "\t'description' => '[[%ask2:Description]]',", 
+    "\t'length' => [[%ask3:Length:255]],", 
+    "\t'not null' => [[%ask4:Not NULL:TRUE]],", 
+    "\t'default' => [[%ask5:Default:'']],", 
+    "),[[%tabstop1]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/cut.png"
+}

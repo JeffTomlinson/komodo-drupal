@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_init", 
+  "value": [
+    "/**", 
+    " * Implements hook_init().", 
+    " */", 
+    "function [[%b]]_init() {", 
+    "<% if (ko.dialogs.yesNo(\"Include CSS?\") == \"Yes\") { %>", 
+    "  drupal_add_css(drupal_get_path('module', '[[%b]]') .'/css/[[%b]].css');", 
+    "<% } %>", 
+    "<% if (ko.dialogs.yesNo(\"Include Javascript?\") == \"Yes\") { %>", 
+    "  drupal_add_js(drupal_get_path('module', '[[%b]]') .'/js/[[%b]].js');", 
+    "<% } %>", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

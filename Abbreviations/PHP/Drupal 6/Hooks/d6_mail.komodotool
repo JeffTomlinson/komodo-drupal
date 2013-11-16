@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_mail", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_mail().", 
+    " *", 
+    " * @param $$key An identifier of the mail.", 
+    " * @param $$message An array to be filled in. Keys in this array include: id, to, subject, body, from, headers", 
+    " * @param $$params An arbitrary array of parameters set by the caller to drupal_mail.", 
+    " * Prepare a message based on parameters", 
+    " */", 
+    "function [[%b]]_mail($key, &$message, $params) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

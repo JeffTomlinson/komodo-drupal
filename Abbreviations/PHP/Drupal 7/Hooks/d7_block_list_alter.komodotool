@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_block_list_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_list_alter().", 
+    " * Act on blocks prior to rendering.", 
+    " */", 
+    "function [[%b]]_block_list_alter(&$blocks) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

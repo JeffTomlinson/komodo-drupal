@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_ping", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_ping().", 
+    " *", 
+    " * @param $$name The name of your Drupal site.", 
+    " * @param $$url The URL of your Drupal site.", 
+    " * Ping another server.", 
+    " */", 
+    "function [[%b]]_ping($name = '', $url = '') {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

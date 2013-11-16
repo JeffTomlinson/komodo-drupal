@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_schema_alter", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_schema_alter().", 
+    " *", 
+    " * @param &amp;$$schema Nested array describing the schemas for all modules.", 
+    " * Perform alterations to existing database schemas.", 
+    " */", 
+    "function [[%b]]_schema_alter($schema) {", 
+    "\t$schema['[[%tabstop1:item]]'];", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

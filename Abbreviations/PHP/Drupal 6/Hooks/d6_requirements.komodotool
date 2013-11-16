@@ -1,0 +1,26 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_requirements", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_requirements().", 
+    " *", 
+    " * @param $$phase The phase in which hook_requirements is run: install or runtime.", 
+    " * Check installation requirements and do status reporting.&#10; * Implementation of hook_().&#10; */&#10;function ${module_name}_() {&#10;  ${cursor}&#10;}", 
+    " */", 
+    "function [[%b]]_requirements($phase) {", 
+    "\treturn $requirements['[[%b]]'] = array(", 
+    "\t\t'title' => $t(''),", 
+    "\t\t'value' => '',", 
+    "\t\t'severity' => [[%tabstop1]]", 
+    "\t);", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

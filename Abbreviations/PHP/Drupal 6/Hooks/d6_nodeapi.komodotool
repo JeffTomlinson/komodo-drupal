@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_nodeapi", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_nodeapi().", 
+    " *", 
+    " * @param &amp;$$node The node the action is being performed on.", 
+    " * @param $$op What kind of action is being performed. Possible values: alter, delete, delete revision, insert, load, prepare, prepare translation, print, rss item, search result, presave, update, update index, validate, view", 
+    " * @param $$a3", 
+    " * @param $$a4", 
+    " * Act on nodes defined by other modules.", 
+    " */", 
+    "function [[%b]]_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

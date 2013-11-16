@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_hook_info", 
+  "value": [
+    "/**", 
+    " * Implements hook_hook_info().", 
+    " * Defines one or more hooks that are exposed by a module.", 
+    " */", 
+    "function [[%b]]_hook_info() {", 
+    "\t$hooks['[[%tabstop1:item]]'] = array(", 
+    "\t\t'group' => '',", 
+    "\t);", 
+    "\treturn $hooks;", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

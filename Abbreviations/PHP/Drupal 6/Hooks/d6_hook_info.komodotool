@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_hook_info", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_hook_info().", 
+    " * Expose a list of triggers (events) that your module is allowing users to assign actions to.", 
+    " */", 
+    "function [[%b]]_hook_info() {", 
+    "\treturn array(", 
+    "\t\t'[[%tabstop1:item]]' => array(", 
+    "\t\t)", 
+    "\t);", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

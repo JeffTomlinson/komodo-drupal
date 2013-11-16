@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_user", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_user().", 
+    " *", 
+    " * @param $$op What kind of actions is being performed. Possible values: after_update, categories, delete, form, insert, load, login, logout, register, submit, update, validate, view", 
+    " * @param &amp;$$edit The array of form values submitted by the user.", 
+    " * @param &amp;$$account The user object on which the operation is being performed.", 
+    " * @param $$category The active category of user information being edited.", 
+    " * Act on user account actions.", 
+    " */", 
+    "function [[%b]]_user($op, &$edit, &$account, $category = NULL) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

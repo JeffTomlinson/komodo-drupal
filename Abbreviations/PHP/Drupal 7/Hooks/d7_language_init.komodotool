@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_language_init", 
+  "value": [
+    "/**", 
+    " * Implements hook_language_init().", 
+    " * Allows modules to act after language initialization has been performed.", 
+    " */", 
+    "function [[%b]]_language_init() {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

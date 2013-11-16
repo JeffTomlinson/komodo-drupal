@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_node_revision_delete", 
+  "value": [
+    "/**", 
+    " * Implements hook_node_revision_delete().", 
+    " * Respond to deletion of a node revision.", 
+    " */", 
+    "function [[%b]]_node_revision_delete($nodes) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

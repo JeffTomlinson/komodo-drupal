@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_field_storage_write", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_storage_write().", 
+    " * Write field data for an entity.", 
+    " */", 
+    "function [[%b]]_field_storage_write($entity_type, $entity, $op, $fields) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

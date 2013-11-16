@@ -1,0 +1,26 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_form_select_old", 
+  "value": [
+    "<%", 
+    "var fieldset = ko.dialogs.prompt('Enter the fieldset name. Leave empty if this field is not part of a fieldset.', 'Fieldset', '');", 
+    "%>", 
+    "", 
+    "$form<% if (fieldset.length) { %>['<%=fieldset%>']<% } %>['[[%ask1:Field]]'] = array(", 
+    "\t'#type' => 'select',", 
+    "\t'#title' => t('[[%ask2:Title]]'),", 
+    "\t'#options' => [[%ask3:Options:array()]],", 
+    "\t'#default_value' => [[%ask4:Default Value:'']],", 
+    "  '#description' => t('[[%ask4:Description]]'),", 
+    "\t'#required' => [[%ask5:Required:TRUE]],", 
+    "\t'#multiple' => [[%ask6:Multiple:FALSE]],", 
+    ");!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/cut.png"
+}

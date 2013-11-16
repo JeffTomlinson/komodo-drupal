@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_dashboard_regions_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_dashboard_regions_alter().", 
+    " * Alter dashboard regions provided by modules.", 
+    " */", 
+    "function [[%b]]_dashboard_regions_alter($regions) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

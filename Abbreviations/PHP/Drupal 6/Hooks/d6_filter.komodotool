@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_filter", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_filter().", 
+    " * Define content filters.", 
+    " */", 
+    "function [[%b]]_filter($op, $delta = 0, $format = -1, $text = '', $cache_id = 0) {", 
+    "\tswitch ($op) {", 
+    "\t\tcase 'list':", 
+    "\t\t\treturn array([[%tabstop1]]);", 
+    "\t\tcase 'description':", 
+    "\t\t\treturn t('');", 
+    "\t\tcase 'prepare':", 
+    "\t\t\treturn $text;", 
+    "\t\tcase "process":", 
+    "\t\t\treturn $text;", 
+    "\t\tdefault:", 
+    "\t\t\treturn $text;", 
+    "\t}", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

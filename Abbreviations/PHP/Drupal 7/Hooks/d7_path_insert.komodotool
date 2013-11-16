@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_path_insert", 
+  "value": [
+    "/**", 
+    " * Implements hook_path_insert().", 
+    " * Allow modules to respond to a path being inserted.", 
+    " */", 
+    "function [[%b]]_path_insert($path) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_update_status_alter", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_update_status_alter().", 
+    " *", 
+    " * @param $$projects Reference to an array of information about available updates to each project installed on the system.", 
+    " * Alter the information about available updates for projects.", 
+    " */", 
+    "function [[%b]]_update_status_alter(&$projects) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

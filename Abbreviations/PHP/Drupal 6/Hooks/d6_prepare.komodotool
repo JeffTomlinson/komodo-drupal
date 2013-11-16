@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_prepare", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_prepare().", 
+    " *", 
+    " * @param &amp;$$node The node being saved.", 
+    " * This is a hook used by node modules. It is called after load but before the node is shown on the add/edit form.", 
+    " */", 
+    "function [[%b]]_prepare(&$node) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

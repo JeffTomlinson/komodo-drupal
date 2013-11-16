@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_footer", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_footer().", 
+    " *", 
+    " * @param $$main Whether the current page is the front page of the site.", 
+    " * @return The HTML to be inserted.", 
+    " * Insert closing HTML.", 
+    " */", 
+    "function [[%b]]_footer($main = 0) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

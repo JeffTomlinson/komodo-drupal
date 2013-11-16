@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_schema_numeric", 
+  "value": [
+    "'[[%ask1:Field Name]]' => array(", 
+    "\t'type' => 'numeric',", 
+    "\t'description' => '[[%ask2:Description]]',", 
+    "\t'not null' => [[%ask3:Not NULL:TRUE]],", 
+    "\t'default' => [[%ask4:Default:0]],", 
+    "  'size' => [[%ask5:Size:normal]],", 
+    "  'precision' => [[%ask6:Precision:10]],", 
+    "  'scale' => [[%ask7:Scale:2]],", 
+    "),[[%tabstop1]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/cut.png"
+}

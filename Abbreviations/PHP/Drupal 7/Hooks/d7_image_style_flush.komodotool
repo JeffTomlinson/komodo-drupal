@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_image_style_flush", 
+  "value": [
+    "/**", 
+    " * Implements hook_image_style_flush().", 
+    " * Respond to image style flushing.", 
+    " */", 
+    "function [[%b]]_image_style_flush($style) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

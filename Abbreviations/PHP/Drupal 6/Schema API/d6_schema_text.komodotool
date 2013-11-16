@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_schema_text", 
+  "value": [
+    "'[[%ask1:Field Name]]' => array(", 
+    "\t'type' => 'text',", 
+    "  'description' => '[[%ask2:Description]]',", 
+    "\t'not null' => [[%ask3:Not NULL:TRUE]],", 
+    "\t'size' => [[%ask4:Size:big]],", 
+    "),[[%tabstop1]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/cut.png"
+}

@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_load", 
+  "value": [
+    "/**", 
+    " * Implements hook_load().", 
+    " *", 
+    " * @param object $node", 
+    " *   The node being loaded.", 
+    " * ", 
+    " * @return object", 
+    " *   A fully loaded node object.", 
+    " */", 
+    "function [[%b]]_load($node) {", 
+    "  $additions = db_fetch_object(db_query('SELECT * FROM {[[%b]]} WHERE vid = %d', $node->vid));", 
+    "  ", 
+    "  return $additions;", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

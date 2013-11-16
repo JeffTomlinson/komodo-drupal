@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_language_types_info", 
+  "value": [
+    "/**", 
+    " * Implements hook_language_types_info().", 
+    " * Allow modules to define their own language types.", 
+    " */", 
+    "function [[%b]]_language_types_info() {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

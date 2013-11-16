@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_stream_wrappers_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_stream_wrappers_alter().", 
+    " * Alters the list of PHP stream wrapper implementations.", 
+    " */", 
+    "function [[%b]]_stream_wrappers_alter(&$wrappers) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

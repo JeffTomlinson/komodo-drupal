@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_field_attach_preprocess_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_attach_preprocess_alter().", 
+    " * Alter field_attach_preprocess() variables.", 
+    " */", 
+    "function [[%b]]_field_attach_preprocess_alter(&$variables, $context) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

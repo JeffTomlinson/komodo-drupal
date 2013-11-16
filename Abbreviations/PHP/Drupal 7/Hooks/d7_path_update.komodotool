@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_path_update", 
+  "value": [
+    "/**", 
+    " * Implements hook_path_update().", 
+    " * Allow modules to respond to a path being updated.", 
+    " */", 
+    "function [[%b]]_path_update($path) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_menu_link_alter", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_menu_link_alter().", 
+    " *", 
+    " * @param $$item Associative array defining a menu link as passed into menu_link_save().", 
+    " * @param $$menu Associative array containg the menu router returned from menu_router_build().", 
+    " * Alter the data being saved to the {menu_links} table by menu_link_save().", 
+    " */", 
+    "function [[%b]]_menu_link_alter(&$item, $menu) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

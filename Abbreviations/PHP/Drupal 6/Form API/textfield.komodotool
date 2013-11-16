@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "textfield", 
+  "value": [
+    "$form['[[%ask1:Element key]]'] = array(", 
+    "  '#type' => 'textfield',", 
+    "  '#title' => t('!@#_currentPos!@#_anchor'),", 
+    "  '#default_value' => '',", 
+    "  '#description' => t(''),", 
+    "  '#required' => FALSE,", 
+    "  '#attributes' => array(),", 
+    ");"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

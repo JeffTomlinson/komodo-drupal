@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_token_info_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_token_info_alter().", 
+    " * Alter the metadata about available placeholder tokens and token types.", 
+    " */", 
+    "function [[%b]]_token_info_alter(&$data) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

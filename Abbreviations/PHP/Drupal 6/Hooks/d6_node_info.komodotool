@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_node_info", 
+  "value": [
+    "/**", 
+    " * Implements hook_node_info().", 
+    " */", 
+    "function [[%b]]_node_info() {", 
+    "  return array(", 
+    "    '[[%ask1:Machine Name]]' => array(", 
+    "      'name' => t('[[%ask2:Friendly Name]]'),", 
+    "      'module' => '[[%b]]',", 
+    "      'description' => t('[[%tabstop1:Creates a [[%ask2]] node.]]'),", 
+    "    ),", 
+    "  );", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/cut.png", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

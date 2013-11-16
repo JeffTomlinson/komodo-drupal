@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_block_info_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_info_alter().", 
+    " * Change block definition before saving to the database.", 
+    " */", 
+    "function [[%b]]_block_info_alter($delta = '') {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

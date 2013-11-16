@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_translated_menu_link_alter", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_translated_menu_link_alter().", 
+    " *", 
+    " * @param $$item Associative array defining a menu link after _menu_link_translate()", 
+    " * @param $$map Associative array containing the menu $$map (path parts and/or objects).", 
+    " * Alter a menu link after it's translated, but before it's rendered.", 
+    " */", 
+    "function [[%b]]_translated_menu_link_alter(&$item, $map) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

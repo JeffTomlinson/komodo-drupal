@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_schema_float", 
+  "value": [
+    "'[[%ask1:Field Name]]' => array(", 
+    "\t'type' => 'float',", 
+    "\t'description' => '[[%ask2:Description]]',", 
+    "\t'not null' => [[%ask3:Not NULL:TRUE]],", 
+    "  'default' => [[%ask4:Default:0]],", 
+    "\t'size' => '[[%ask5:size:normal]]',", 
+    "),[[%tabstop1]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/cut.png", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

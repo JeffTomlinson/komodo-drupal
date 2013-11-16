@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_profile_alter", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_profile_alter().", 
+    " *", 
+    " * @param &amp;$$account A user object whose profile is being rendered. Profile items are stored in $$account-&gt;content.", 
+    " * Perform alterations profile items before they are rendered. You may omit/add/re-sort/re-categorize, etc.", 
+    " */", 
+    "function [[%b]]_profile_alter(&$account) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

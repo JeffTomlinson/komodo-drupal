@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_field_attach_prepare_translation_alter", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_attach_prepare_translation_alter().", 
+    " * Perform alterations on field_attach_prepare_translation().", 
+    " */", 
+    "function [[%b]]_field_attach_prepare_translation_alter(&$entity, $context) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

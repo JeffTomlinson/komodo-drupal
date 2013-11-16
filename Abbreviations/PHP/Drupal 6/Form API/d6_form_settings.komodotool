@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_form_settings", 
+  "value": [
+    "/**", 
+    " * Build the system settings form.", 
+    " *", 
+    " * @ingroup forms", 
+    " * @see system_settings_form().", 
+    " */", 
+    "function [[%b]]_admin_settings() {", 
+    "  [[%tabstop1]]", 
+    "  ", 
+    "  return system_settings_form($form);", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

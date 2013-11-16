@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_schema", 
+  "value": [
+    "/**", 
+    " * Implements hook_schema().", 
+    " */", 
+    "function [[%b]]_schema() {", 
+    "\t$schema['[[%ask1:Table Name:%b]]'] = array(", 
+    "\t\t'description' => '',", 
+    "\t\t'fields' => array(", 
+    "\t\t\t[[%tabstop1]]", 
+    "\t\t),", 
+    "\t\t'indexes' => array(),", 
+    "\t\t'unique keys' => array(),", 
+    "\t\t'primary key' => array(),", 
+    "\t);", 
+    "  ", 
+    "\treturn $schema;", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

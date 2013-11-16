@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_taxonomy", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_taxonomy().", 
+    " *", 
+    " * @param $$op What is being done to $$array. Possible values: delete, insert, update.", 
+    " * @param $$type What manner of item $$array is. Possible values: term, vocabulary.", 
+    " * @param $$array The item on which $$op is being performed.", 
+    " * Act on taxonomy changes.", 
+    " */", 
+    "function [[%b]]_taxonomy($op, $type, $array = NULL) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

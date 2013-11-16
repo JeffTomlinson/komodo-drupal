@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_system_info_alter", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_system_info_alter().", 
+    " *", 
+    " * @param &amp;$$info The .info file contents, passed by reference so that it can be altered.", 
+    " * @param $$file Full information about the module or theme, including $$file-&gt;name, and $$file-&gt;filename.", 
+    " * Alter the information parsed from module and theme .info files", 
+    " */", 
+    "function [[%b]]_system_info_alter(&$info, $file) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

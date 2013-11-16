@@ -1,0 +1,30 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_node_type", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_node_type().", 
+    " *", 
+    " * @param $$op What is being done to $$info. Possible values: delete, insert, update.", 
+    " * @param $$info The node type on which $$op is being performed.", 
+    " * Act on node type changes.", 
+    " */", 
+    "function [[%b]]_node_type($op, $info) {", 
+    "[[%tabstop1]]\tswitch ($op) {", 
+    "\t\tcase 'delete':", 
+    "\t\t\tbreak;", 
+    "\t\tcase 'insert':", 
+    "\t\t\tbreak;", 
+    "\t\tcase 'update':", 
+    "\t\t\tbreak;", 
+    "\t}", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

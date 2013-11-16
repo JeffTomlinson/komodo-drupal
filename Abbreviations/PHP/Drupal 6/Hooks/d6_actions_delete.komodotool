@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_actions_delete", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_actions_delete().", 
+    " *", 
+    " * @param $$aid The action ID.", 
+    " * Execute code after an action is deleted.", 
+    " */", 
+    "function [[%b]]_actions_delete($aid) {", 
+    "\t[[%tabstop1]]db_query("DELETE FROM {actions_assignments} WHERE aid = '%s'", $aid);", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

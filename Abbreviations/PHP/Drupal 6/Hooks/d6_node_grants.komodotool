@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_node_grants", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_node_grants().", 
+    " *", 
+    " * @param $$account The user object whose grants are requested.", 
+    " * @param $$op The node operation to be performed, such as "view", "update", or "delete".", 
+    " * @return An array whose keys are "realms" of grants such as "user" or "role", and whose values are linear lists of grant IDs.", 
+    " * Inform the node access system what permissions the user has.", 
+    " */", 
+    "function [[%b]]_node_grants($account, $op) {", 
+    "\t[[%tabstop1]]", 
+    "\treturn $grants;", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

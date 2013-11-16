@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_update", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_update().", 
+    " *", 
+    " * @param $$node The node being updated.", 
+    " * Respond to node updating.", 
+    " */", 
+    "function [[%b]]_update($node) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

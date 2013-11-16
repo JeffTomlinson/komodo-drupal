@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d7_preprocess", 
+  "value": [
+    "/**", 
+    " * Implements hook_preprocess().", 
+    " * Preprocess theme variables.", 
+    " */", 
+    "function [[%b]]_preprocess(&$variables, $hook) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

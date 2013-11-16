@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_filter_tips", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_filter_tips().", 
+    " *", 
+    " * @param $$delta Which of this module's filters to use. Modules which only implement one filter can ignore this parameter.", 
+    " * @param $$format Which format we are providing tips for.", 
+    " * @param $$long If set to true, long tips are requested, otherwise short tips are needed.", 
+    " * @return string", 
+    " * Provide tips for using filters.", 
+    " */", 
+    "function [[%b]]_filter_tips($delta, $format, $long = FALSE) {", 
+    "\treturn t('[[%tabstop1:item]]');", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

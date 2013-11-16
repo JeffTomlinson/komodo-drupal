@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_file_download", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_file_download().", 
+    " *", 
+    " * @param $$filepath String of the file's path.", 
+    " * Control access to private file downloads and specify HTTP headers.", 
+    " */", 
+    "function [[%b]]_file_download($filepath) {", 
+    "\t[[%tabstop1]]", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

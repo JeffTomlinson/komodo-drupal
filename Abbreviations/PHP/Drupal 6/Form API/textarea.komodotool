@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "textarea", 
+  "value": [
+    "$form['[[%ask1:Element key]]'] = array(", 
+    "\t'#type' => 'textarea',", 
+    "\t'#title' => t('!@#_currentPos!@#_anchor'),", 
+    "\t'#description' => t(''),", 
+    "\t'#default_value' => '',", 
+    "\t'#required' => FALSE,", 
+    "\t'#cols' => 60,", 
+    "\t'#rows' => 5,", 
+    "\t'#resizable' => TRUE,", 
+    ");"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

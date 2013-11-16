@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_term_path", 
+  "value": [
+    "/**", 
+    " * Implementation of hook_term_path().", 
+    " *", 
+    " * @param $$term A term object.", 
+    " * @return An internal Drupal path.", 
+    " * Allows modules to provide an alternative path for the terms it manages.", 
+    " */", 
+    "function [[%b]]_term_path($term) {", 
+    "\treturn '[[%tabstop1:item]]';", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

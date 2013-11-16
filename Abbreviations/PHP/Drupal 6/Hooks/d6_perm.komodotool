@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "d6_perm", 
+  "value": [
+    "/**", 
+    " * Implements hook_perm().", 
+    " *", 
+    " * @return array", 
+    " * An array of valid permissions for the [[%b]] module.", 
+    " */", 
+    "function [[%b]]_perm() {", 
+    "\treturn array('[[%tabstop1:administer [[%b]]]]');", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}
